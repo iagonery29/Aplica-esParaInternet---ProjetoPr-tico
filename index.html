@@ -1,0 +1,138 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPrime - Venda de Automóveis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">AutoPrime</h1>
+            <nav class="nav" aria-label="Menu principal">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#cars">Carros</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Encontre o carro ideal para você</h2>
+                <p>Qualidade, confiança e os melhores preços.</p>
+                <a href="#cars" class="btn">Ver carros</a>
+            </div>
+        </section>
+
+        <section id="cars" class="cars">
+            <div class="container">
+                <h2>Nossos veículos</h2>
+                <div class="car-list">
+                    <article class="car-card">
+                        <img src="./assets/2013-05-21-ferrari-458-italia-2011.webp" alt="Carro esportivo vermelho">
+                        <h3>Esportivo X</h3>
+                        <p>Potência e desempenho incomparáveis.</p>
+                        <span class="price">R$ 120.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+
+                    <article class="car-card">
+                        <img src="./assets/2020-07-28-bmw-x7.webp" alt="SUV preto moderno">
+                        <h3>SUV Prime</h3>
+                        <p>Conforto e espaço para toda a família.</p>
+                        <span class="price">R$ 95.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+
+                    <article class="car-card">
+                        <img src="./assets/corolla_gli_2019.webp" alt="Sedan branco elegante">
+                        <h3>Sedan Lux</h3>
+                        <p>Elegância e tecnologia de ponta.</p>
+                        <span class="price">R$ 80.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+
+                    <article class="car-card">
+                        <img src="./assets/chevrolet-celta-5-door-5.webp" alt="Celta básico vermelho">
+                        <h3>Celtinha</h3>
+                        <p>Pelo menos não anda a pé.</p>
+                        <span class="price">R$ 40.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+
+                    <article class="car-card">
+                        <img src="./assets/Volkswagen_Gol_Highline_2023_(53708009248)_(cropped).jpg" alt="Gol básico cinza">
+                        <h3>Gol Bola</h3>
+                        <p>Carro básico pra não andar de ônibus.</p>
+                        <span class="price">R$ 45.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+
+                    <article class="car-card">
+                        <img src="./assets/2014-01-09-palio3.webp" alt="Palio básico preto">
+                        <h3>Palio</h3>
+                        <p>Bom para fazer Uber.</p>
+                        <span class="price">R$ 50.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+
+                    <article class="car-card">
+                        <img src="./assets/BYD-King-GS-foto-Thiago-Ventura.webp" alt="Carro BYD branco">
+                        <h3>BYD</h3>
+                        <p>O melhor modelo de carro elétrico de entrada.</p>
+                        <span class="price">R$ 80.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+
+                    <article class="car-card">
+                        <img src="./assets/novo-suv-da-byd-yuan-up-a.jpg" alt="Carro BYD SUV Cinza">
+                        <h3>BYD SUV</h3>
+                        <p>O melhor modelo de carro elétrico SUV.</p>
+                        <span class="price">R$ 130.000</span>
+                        <button class="btn">Detalhes</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre nós</h2>
+                <p>Somos especialistas em venda de automóveis com anos de experiência no mercado.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <form>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AutoPrime. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
