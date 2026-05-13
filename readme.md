@@ -11,3 +11,11 @@ Atualmente, muitos usuários encontram dificuldades para visualizar informaçõe
 
 ## 4. Critério de Sucesso
 O usuário consegue visualizar os veículos disponíveis, navegar entre as seções do site e entrar em contato com a empresa de forma rápida e acessível em qualquer dispositivo.
+
+/* Paleta de cores */
+    --primary: #1a73e8;
+    --secondary: #0f172a;
+    --background: #f9fafb;
+    --text: #111827;
+    --white: #ffffff;
+    --gray: #6b7280;
