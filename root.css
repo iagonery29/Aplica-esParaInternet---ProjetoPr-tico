@@ -1,0 +1,29 @@
+/* root.css */
+
+:root {
+    --primary: #1a73e8;
+    --secondary: #0f172a;
+    --background: #f9fafb;
+    --text: #111827;
+    --white: #ffffff;
+    --gray: #6b7280;
+
+
+    /* Breakpoints */
+    --bp-sm: 480px;
+    --bp-md: 768px;
+    --bp-lg: 1024px;
+    --bp-xl: 1280px;
+
+    /* Tokens de espaçamento */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+
+    /* Tipografia fluida */
+    --fs-base: clamp(0.875rem, 2vw, 1rem);
+    --fs-h1: clamp(1.75rem, 4vw, 2.5rem);
+    --fs-h2: clamp(1.25rem, 3vw, 1.875rem);
+}

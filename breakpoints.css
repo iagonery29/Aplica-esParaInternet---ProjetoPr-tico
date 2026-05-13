@@ -1,0 +1,30 @@
+/* breakpoints.css */
+
+/* ── TABLET: >= 768px ─────────────────────────────── */
+@media (min-width: 768px) {
+header {
+flex-direction: row; /* logo e nav lado a lado */
+justify-content: space-between;
+padding: var(--space-sm) var(--space-lg);
+}
+main {
+/* Layout com sidebar: sidebar 240px + conteúdo principal */
+grid-template-columns: 240px 1fr;
+grid-template-areas:
+"sidebar main"
+"sidebar main";
+padding: var(--space-md) var(--space-lg);
+}
+.sidebar { grid-area: sidebar; }
+.content { grid-area: main; }
+}
+
+
+/* ── DESKTOP: >= 1024px ───────────────────────────── */
+@media (min-width: 1024px) {
+main {
+grid-template-columns: 280px 1fr 220px; /* sidebar + main + aside */
+grid-template-areas: "sidebar main aside";
+}
+.aside { grid-area: aside; }
+}
