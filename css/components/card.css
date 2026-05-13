@@ -1,0 +1,26 @@
+.cars {
+    padding: var(--space-lg) 0;
+}
+
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-md);
+}
+
+.car-card {
+    background: var(--white);
+    padding: var(--space-sm);
+    border-radius: 8px;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    display: block;
+    margin: var(--space-xs) 0;
+    font-weight: bold;
+}

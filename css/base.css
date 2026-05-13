@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--fs-base);
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+
+.logo {
+    padding-bottom: var(--space-xs);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+.btn {
+    display: inline-block;
+    background: var(--secondary);
+    color: var(--white);
+    padding: var(--space-xs) var(--space-sm);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:focus,
+.btn:hover {
+    outline: 2px solid var(--primary);
+}
+
+.about,
+.contact {
+    padding: var(--space-lg) 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+input,
+textarea {
+    padding: var(--space-xs);
+    border: 1px solid var(--gray);
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--primary);
+}

@@ -1,0 +1,6 @@
+.hero {
+    padding: var(--space-xl) 0;
+    background: var(--primary);
+    color: var(--white);
+    text-align: center;
+}

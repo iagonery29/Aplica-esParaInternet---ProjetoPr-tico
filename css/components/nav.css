@@ -1,0 +1,15 @@
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: var(--space-sm);
+}
+
+.nav a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.nav a:focus,
+.nav a:hover {
+    text-decoration: underline;
+}
