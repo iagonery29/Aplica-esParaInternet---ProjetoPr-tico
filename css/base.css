@@ -59,3 +59,12 @@ input:focus,
 textarea:focus {
     outline: 2px solid var(--primary);
 }
+
+.Topo {
+    text-align: center;
+}
+
+.Topo a {
+    color: var(--primary);
+    text-decoration: none;
+}
