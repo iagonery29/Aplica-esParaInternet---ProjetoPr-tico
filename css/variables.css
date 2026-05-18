@@ -8,6 +8,10 @@
     --white: #ffffff;
     --gray: #6b7280;
 
+    /* Tipologia */
+    --font-heading: "Poppins", system-ui, sans-serif;
+    --font-body: "Inter", system-ui, sans-serif;
+
 
     /* Breakpoints */
     --bp-sm: 480px;
