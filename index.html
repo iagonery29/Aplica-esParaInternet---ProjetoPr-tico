@@ -19,18 +19,35 @@
 </head>
 <body>
 
-    <header id="home" class="header">
-        <div class="container">
-            <h1 class="logo">AutoPrime Veículos</h1>
-            <nav class="nav" aria-label="Menu principal">
-                <ul>
-                    <li><a href="#cars">Carros</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <!-- navbar.html — Estrutura semântica correta -->
+        <header class="header">
+            <nav class="navbar" aria-label="Navegação principal">
+                <a href="" class="navbar__brand" aria-label="Ir para pagina inicial">
+                    <span class="navbar__logo-text">AutoPrime Veículos</span>
+                </a>
+
+        <!-- Botão hamburger (visível apenas em mobile) -->
+        <button class="navbar__toggle" aria-expanded="false" aria-controls="navbar-menu" aria-label="Abrir menu">
+            <span class="navbar__toggle-bar"></span>
+            <span class="navbar__toggle-bar"></span>
+            <span class="navbar__toggle-bar"></span>
+        </button>
+
+        <ul class="navbar__menu" id="navbar-menu" role="list">
+            <li class="navbar__item">
+                <a href="#cars" class="navbar__link">Carros</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__link">Sobre</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#contact" class="navbar__link">Contato</a>
+            </li>
+        </ul>
+        
+        <a href="/login" class="btn btn--primary navbar__cta">Entrar</a>
+        </nav>
+        </header>
 
     <main id="main-content">
         <section class="hero">
@@ -178,5 +195,7 @@
             <p>&copy; 2026 AutoPrime. Todos os direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
