@@ -60,11 +60,11 @@ textarea:focus {
     outline: 2px solid var(--primary);
 }
 
-.Topo {
+.Top {
     text-align: center;
 }
 
-.Topo a {
+.Top a {
     color: var(--primary);
     text-decoration: none;
 }
